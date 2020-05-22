@@ -1,15 +1,6 @@
 def snake_it_up(string)
   if string[0] == "s"
-    "s" + string
-    "s" + string
-    "s" + string
-    "s" + string
-    "s" + string
-    "s" + string
-    "s" + string
-    "s" + string
-    "s" + string
-    "s" + string
+    10.times do "s" + string
   else
     string
   end
